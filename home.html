@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Asignment</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">
+          <a href="home.html" class="logo">Travel.</a>
+        </div>
+        <div class="right">
+          <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="package.html">PACKAGE</a></li>
+            <li><a href="book.html">BOOK</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section class="home">
+      <div
+        class="slide"
+        style="
+          background: url(https://cdn.pixabay.com/photo/2017/04/11/03/41/tea-plantation-2220475_1280.jpg)
+            no-repeat;
+        "
+      >
+        <div class="content">
+          <span>Explore, Discover, Travel</span>
+          <h3>Travel around the world</h3>
+          <a href="package.html" class="btn">Discover More</a>
+        </div>
+      </div>
+
+      <div
+        class="slide"
+        style="
+          background: url(https://cdn.pixabay.com/photo/2017/02/06/11/58/desert-2042738_1280.jpg)
+            no-repeat;
+        "
+      >
+        <div class="content">
+          <span>Explore, Discover, Travel</span>
+          <h3>Discover the new places</h3>
+          <a href="package.html" class="btn">Discover More</a>
+        </div>
+      </div>
+
+      <div
+        class="slide"
+        style="
+          background: url(https://cdn.pixabay.com/photo/2022/05/10/14/37/glacier-7187291_1280.jpg)
+            no-repeat;
+        "
+      >
+        <div class="content">
+          <span>Explore, Discover, Travel</span>
+          <h3>Make your tour worthwile</h3>
+          <a href="package.html" class="btn">Discover More</a>
+        </div>
+      </div>
+
+      <span class="arrow prev" onclick="controller(-1)">&#10094;</span>
+      <span class="arrow next" onclick="controller(1)">&#10095;</span>
+    </section>
+
+    <section class="services">
+      <h1 class="heading-title">Our Services</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img
+            src="https://png.pngtree.com/png-vector/20230420/ourmid/pngtree-adventure-line-icon-vector-png-image_6719483.png"
+            alt=""
+          />
+          <h3>Adventure</h3>
+        </div>
+
+        <div class="box">
+          <img
+            src="https://cdn-icons-png.flaticon.com/128/2373/2373771.png"
+            alt=""
+          />
+          <h3>Tour Guide</h3>
+        </div>
+
+        <div class="box">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/701/701367.png"
+            alt=""
+          />
+          <h3>Trekking</h3>
+        </div>
+
+        <div class="box">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/481/481398.png"
+            alt=""
+          />
+          <h3>Camp Fire</h3>
+        </div>
+
+        <div class="box">
+          <img
+            src="https://cdn.icon-icons.com/icons2/1619/PNG/512/3687825-adventure-road-street-sign-way_108812.png"
+            alt=""
+          />
+          <h3>Off Road</h3>
+        </div>
+
+        <div class="box">
+          <img
+            src="https://cdn4.iconfinder.com/data/icons/camping-and-survival-in-the-wild-1/512/952-30-512.png"
+            alt=""
+          />
+          <h3>Camping</h3>
+        </div>
+      </div>
+    </section>
+
+    <section class="home-about">
+      <div class="image">
+        <img
+          src="https://cdn.pixabay.com/photo/2022/05/15/13/32/fashionable-7198003_1280.jpg"
+          alt=""
+        />
+      </div>
+      <div class="content">
+        <h3>About Us</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore
+          impedit incidunt eaque a quo optio quasi facilis minus sapiente ea,
+          consectetur corporis distinctio tempore, id veniam magni beatae sed
+          eius.
+        </p>
+        <a href="about.html" class="btn">Read More</a>
+      </div>
+    </section>
+
+    <section class="home-packages">
+      <h1 class="heading-title">Our Packeges</h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img
+              src="https://cdn.pixabay.com/photo/2023/03/26/20/48/tajmahal-7879103_1280.jpg"
+              alt=""
+            />
+          </div>
+          <div class="content">
+            <h3>Adventure & Tour</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <a href="book.html" class="btn">Book Now</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img
+              src="https://cdn.pixabay.com/photo/2013/07/23/00/07/castle-166200_1280.jpg"
+              alt=""
+            />
+          </div>
+          <div class="content">
+            <h3>Adventure & Tour</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <a href="book.html" class="btn">Book Now</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img
+              src="https://cdn.pixabay.com/photo/2013/07/04/18/13/lake-powell-143208_1280.jpg"
+              alt=""
+            />
+          </div>
+          <div class="content">
+            <h3>Adventure & Tour</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <a href="book.html" class="btn">Book Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="load-more"><a href="book.html" class="btn">Load More</a></div>
+    </section>
+
+    <section class="home-offer">
+      <div class="content">
+        <h3>upto 50% off</h3>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam
+          exercitationem enim a labore natus sint saepe!
+        </p>
+        <a href="book.html" class="btn">Book Now</a>
+      </div>
+    </section>
+
+    <footer>
+      <div class="box-container">
+        <div class="box">
+          <h3>Quick Links</h3>
+          <a href="home.html">HOME</a>
+          <a href="about.html">ABOUT</a>
+          <a href="package.html">PACKAGE</a>
+          <a href="book.html">BOOK</a>
+        </div>
+
+        <div class="box">
+          <h3>Extra Links</h3>
+          <a href="#">Ask Questions</a>
+          <a href="#">About Us</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Use</a>
+        </div>
+
+        <div class="box">
+          <h3>Contact Info</h3>
+          <a href="#"> +123-456-7890 </a>
+          <a href="#"> +222-555-4444 </a>
+          <a href="#">shiv420@gmail.com</a>
+          <a href="#">mumbai, india - 400104</a>
+        </div>
+
+        <div class="box">
+          <h3>Follow Us</h3>
+          <a href="#">Facebook</a>
+          <a href="#">Twitter</a>
+          <a href="#">Instagram</a>
+          <a href="#">Linkedin</a>
+        </div>
+      </div>
+      <hr />
+      <div class="credit">
+        Created by <span>Web Designer</span> | all rights reserved!
+      </div>
+    </footer>
+
+    <script>
+      let flag = 0;
+
+      function controller(x) {
+        flag = flag + x;
+        slideshow(flag);
+      }
+
+      slideshow(flag);
+
+      function slideshow(num) {
+        let slides = document.getElementsByClassName("slide");
+
+        if (num == slides.length) {
+          flag = 0;
+          num = 0;
+        }
+        if (num < 0) {
+          flag = slides.length - 1;
+          num = slides.length - 1;
+        }
+
+        for (let y of slides) {
+          y.style.display = "none";
+        }
+
+        slides[num].style.display = "block";
+      }
+    </script>
+  </body>
+</html>

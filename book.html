@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> -->
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">
+          <a href="home.html" class="logo">Travel.</a>
+        </div>
+        <div class="right">
+          <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="package.html">PACKAGE</a></li>
+            <li><a href="book.html">BOOK</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div
+      class="heading"
+      style="
+        background: url(https://cdn.pixabay.com/photo/2016/11/19/18/57/godafoss-1840758_1280.jpg)
+          no-repeat;
+      "
+    >
+      <h1>Book Now</h1>
+    </div>
+
+    <section class="booking">
+      <h1 class="heading-title">Book Your Trip!</h1>
+      <form action="book_form.html" method="post" class="book-form">
+        <div class="flex">
+          <div class="inputBox">
+            <span>Name :</span>
+            <input type="text" placeholder="Enter your name" name="name" />
+          </div>
+
+          <div class="inputBox">
+            <span>Email :</span>
+            <input type="email" placeholder="Enter your email" name="email" />
+          </div>
+
+          <div class="inputBox">
+            <span>Phone :</span>
+            <input type="number" placeholder="Enter your number" name="phone" />
+          </div>
+
+          <div class="inputBox">
+            <span>Address :</span>
+            <input
+              type="text"
+              placeholder="Enter your address"
+              name="address"
+            />
+          </div>
+
+          <div class="inputBox">
+            <span>Where to :</span>
+            <input
+              type="text"
+              placeholder="Place you want to visit "
+              name="location"
+            />
+          </div>
+
+          <div class="inputBox">
+            <span>How many :</span>
+            <input type="number" placeholder="Number of guests" name="guests" />
+          </div>
+
+          <div class="inputBox">
+            <span>Arrivals :</span>
+            <input type="date" name="arrivals" />
+          </div>
+
+          <div class="inputBox">
+            <span>Leaving :</span>
+            <input type="date" name="leaving" />
+          </div>
+        </div>
+
+        <input type="submit" value="Submit" class="btn" name="send" />
+      </form>
+    </section>
+
+    <footer>
+      <div class="box-container">
+        <div class="box">
+          <h3>Quick Links</h3>
+          <a href="home.html"> <i class="fas fa-angel-right">HOME</i></a>
+          <a href="about.html"> <i class="fas fa-angel-right">ABOUT</i></a>
+          <a href="package.html"> <i class="fas fa-angel-right">PACKAGE</i></a>
+          <a href="book.html"> <i class="fas fa-angel-right">BOOK</i></a>
+        </div>
+
+        <div class="box">
+          <h3>Extra Links</h3>
+          <a href="#"> <i class="fas fa-angel-right">Ask Questions</i></a>
+          <a href="#"> <i class="fas fa-angel-right">About Us</i></a>
+          <a href="#"> <i class="fas fa-angel-right">Privacy Policy</i></a>
+          <a href="#"> <i class="fas fa-angel-right">Terms of Use</i></a>
+        </div>
+
+        <div class="box">
+          <h3>Contact Info</h3>
+          <a href="#"> <i class="fas fa-phone"> +123-456-7890 </i></a>
+          <a href="#"> <i class="fas fa-phone"> +222-555-4444 </i></a>
+          <a href="#"> <i class="fas fa-envelope">shiv420@gmail.com</i></a>
+          <a href="#"> <i class="fas fa-map">mumbai, india - 400104</i></a>
+        </div>
+
+        <div class="box">
+          <h3>Follow Us</h3>
+          <a href="#"> <i class="fab fa-facebook">Facebook</i></a>
+          <a href="#"> <i class="fab fa-twitter">Twitter</i></a>
+          <a href="#"> <i class="fab fa-instagram">Instagram</i></a>
+          <a href="#"> <i class="fab fa-linkedin">Linkedin</i></a>
+        </div>
+      </div>
+      <hr />
+      <div class="credit">
+        Created by <span>Web Designer</span> | all rights reserved!
+      </div>
+    </footer>
+  </body>
+</html>
